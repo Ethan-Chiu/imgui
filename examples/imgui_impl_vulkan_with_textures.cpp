@@ -58,7 +58,7 @@
 #include "imgui_impl_vulkan_with_textures.h"
 #include <stdio.h>
 // Added from Ethane
-#include "Platform/Vulkan/VulkanRendererAPI.h"
+#include "Ethane/Platform/Vulkan/VulkanRendererAPI.h"
 
 // Reusable buffers used for rendering 1 current in-flight frame, for ImGui_ImplVulkan_RenderDrawData()
 // [Please zero-clear before use!]
