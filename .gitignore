@@ -56,6 +56,9 @@ examples/example_sdl_opengl3/example_sdl_opengl3
 bin/
 bin-int/
 
+Makefile
+logs
+
 *.sln
 *.vcxproj*
 *.pbxproj
