@@ -30,6 +30,12 @@ project "ImGui"
         systemversion "latest"
         cppdialect "C++17"
 
+    filter "system:macosx"
+        pic "On"
+        systemversion "latest"
+        cppdialect "C++17"
+
+
     filter "configurations:Debug"
         runtime "Debug"
         symbols "on"
